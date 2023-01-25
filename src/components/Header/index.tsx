@@ -10,7 +10,7 @@ const NavLink = ({ children }: { children: ReactNode }) => (
     py={1}
     rounded={'md'}
     textDecoration={'none'}
-    fontFamily={'Merriweather'}
+    fontFamily={'body'}
     fontSize={'24px'}
     _hover={{
       textDecoration: 'underline'
@@ -26,12 +26,12 @@ export default function Header({ type }: { type: string }) {
     <Box
       bg={'primary.purple'}
       color={'tertiary.grey'}
-      w={'100vw'}
+      w={'100%'}
       py={'20px'}
       boxShadow={'dropShadow'}
     >
       <Flex justifyContent={'space-evenly'} alignItems={'center'}>
-        <Text fontSize={'36px'} fontFamily={'M FELL Double Pica SC'}>
+        <Text fontSize={'36px'} fontFamily={'display'}>
           Jornada
         </Text>
         <HStack as={'nav'} spacing={'32px'}>

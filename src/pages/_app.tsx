@@ -12,6 +12,26 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="shortcut icon" href="/img/chakra-logo.png" />
         <link rel="apple-touch-icon" href="/img/chakra-logo.png" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Merriweather:wght@300;400;700&display=swap"
+          rel="stylesheet"
+        />
         <meta name="description" content="NextJS with Chakra-ui Boilerplate" />
       </Head>
 

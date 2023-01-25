@@ -41,7 +41,7 @@ export default function RightList({ type }: { type: string }) {
     <Flex alignItems={'center'}>
       <Link
         textDecor={'none'}
-        fontFamily={'Merriweather'}
+        fontFamily={'body'}
         fontSize={'24px'}
         mr={'24px'}
         _hover={{ textDecoration: 'none' }}

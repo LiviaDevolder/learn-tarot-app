@@ -19,7 +19,7 @@ const Button = {
       transitionDuration: '240ms',
       transitionTimingFunction: 'cubic-bezier(0.32, 0.01, 0.32, 1)',
       lineHeight: 'inherit',
-      fontFamily: 'Merriweather'
+      fontFamily: 'body'
     }
   },
   variants: {

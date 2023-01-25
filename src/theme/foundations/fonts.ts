@@ -1,6 +1,6 @@
 const fonts = {
-  heading: "'IM FELL Double Pica SC', Arial, Helvetica, sans-serif",
-  body: "'Merriweather', Arial, Helvetica, sans-serif"
+  display: "'IM FELL Double Pica SC', serif",
+  body: "'Merriweather', serif"
 }
 
 export default fonts
