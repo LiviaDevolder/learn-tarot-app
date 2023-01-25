@@ -1,13 +1,10 @@
-import Hero from 'components/Hero'
-import Container from 'components/Container'
-import DarkModeSwitch from 'components/DarkModeSwitch'
+import { Box } from '@chakra-ui/react'
+import Header from 'components/Header'
 
-const Index = () => (
-  <Container height="100vh">
-    <DarkModeSwitch />
-
-    <Hero />
-  </Container>
-)
-
-export default Index
+export default function Home() {
+  return (
+    <Box bgColor={'secondary.purple.400'} h={'100vh'}>
+      <Header type="guest"></Header>
+    </Box>
+  )
+}

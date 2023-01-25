@@ -33,10 +33,10 @@
     "@fontsource/im-fell-double-pica-sc": "^4.5.8",
     "@fontsource/merriweather": "^4.5.14",
     "framer-motion": "4.1.11",
-    "next": "latest",
+    "next": "^13.1.5",
     "next-pwa": "^5.2.21",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -51,7 +51,7 @@
     "@testing-library/react": "^11.2.7",
     "@types/jest": "^26.0.23",
     "@types/node": "^14.6.0",
-    "@types/react": "^17.0.3",
+    "@types/react": "^18.0.27",
     "@types/react-dom": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",

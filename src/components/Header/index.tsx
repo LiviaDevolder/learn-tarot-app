@@ -21,7 +21,7 @@ const NavLink = ({ children }: { children: ReactNode }) => (
   </Link>
 )
 
-export default function Simple({ type }: { type: string }) {
+export default function Header({ type }: { type: string }) {
   return (
     <Box
       bg={'primary.purple'}
