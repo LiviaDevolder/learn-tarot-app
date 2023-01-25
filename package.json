@@ -30,6 +30,8 @@
     "@chakra-ui/theme-tools": "1.1.2",
     "@emotion/react": "11.1.5",
     "@emotion/styled": "11.1.5",
+    "@fontsource/im-fell-double-pica-sc": "^4.5.8",
+    "@fontsource/merriweather": "^4.5.14",
     "framer-motion": "4.1.11",
     "next": "latest",
     "next-pwa": "^5.2.21",
