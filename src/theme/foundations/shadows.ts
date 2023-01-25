@@ -1,7 +1,5 @@
-import colors from './colors'
-
 const shadows = {
-  outline: `0 0 0 3px ${colors.primary[300]}`
+  dropShadow: `0px 8px 24px rgba(0, 0, 0, 0.15)`
 }
 
 export default shadows

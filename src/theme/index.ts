@@ -10,7 +10,7 @@ import colors from './foundations/colors'
 import shadows from './foundations/shadows'
 
 // Component style overrides
-import Button from './components/Button/button'
+import Button from './components/button'
 
 const customTheme = {
   styles,
