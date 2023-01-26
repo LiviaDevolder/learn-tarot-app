@@ -1,4 +1,5 @@
-import { Story, Meta } from '@storybook/react/types-6-0'
+import { Meta, Story } from '@storybook/react/types-6-0'
+import { IHeader, Type } from 'interfaces/IHeader'
 
 import Header from '.'
 
@@ -9,22 +10,22 @@ const meta: Meta = {
 
 export default meta
 
-const Template: Story = (args) => <Header type={''} {...args} />
+const Template: Story<IHeader> = (args) => <Header {...args} />
 
 export const Primary = Template.bind({})
 
 Primary.args = {
-  type: 'logged'
+  type: Type.logged
 }
 
 export const Secondary = Template.bind({})
 
 Secondary.args = {
-  type: 'guest'
+  type: Type.guest
 }
 
 export const Tertiary = Template.bind({})
 
 Tertiary.args = {
-  type: 'none'
+  type: Type.none
 }

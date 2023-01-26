@@ -6,5 +6,8 @@ module.exports = withPWA({
   pwa: {
     dest: 'public',
     disable: !isProduction
+  },
+  devIndicators: {
+    autoPrerender: false
   }
 })

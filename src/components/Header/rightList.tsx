@@ -9,10 +9,11 @@ import {
   MenuList
 } from '@chakra-ui/react'
 import Button from 'components/Button'
+import { IHeader, Type } from 'interfaces/IHeader'
 
-export default function RightList({ type }: { type: string }) {
-  const isLogged = type === 'logged'
-  const isGuest = type === 'guest'
+export default function RightList({ type }: IHeader) {
+  const isLogged = type === Type.logged
+  const isGuest = type === Type.guest
 
   return isLogged ? (
     <Menu>

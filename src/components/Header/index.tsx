@@ -1,6 +1,7 @@
 import { ReactNode } from 'react'
 import { Box, Text, Flex, HStack, Link } from '@chakra-ui/react'
 import RightList from './rightList'
+import { IHeader } from 'interfaces/IHeader'
 
 const Links = ['Anotações', 'Tiragens']
 
@@ -21,7 +22,7 @@ const NavLink = ({ children }: { children: ReactNode }) => (
   </Link>
 )
 
-export default function Header({ type }: { type: string }) {
+export default function Header({ type }: IHeader) {
   return (
     <Box
       bg={'primary.purple'}
