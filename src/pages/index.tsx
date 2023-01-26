@@ -1,4 +1,5 @@
 import { Box, Flex, Img, Text } from '@chakra-ui/react'
+import Button from 'components/Button'
 import Footer from 'components/Footer'
 import Header from 'components/Header'
 import { Type } from 'interfaces/IHeader'
@@ -82,6 +83,58 @@ export default function Index() {
             >
               Usuária
             </Text>
+          </Flex>
+        </Flex>
+      </Flex>
+
+      <Flex mb={'48px'} alignItems={'center'} gridGap={'48px'}>
+        <Flex flexDir={'column'}>
+          <Text
+            fontFamily={'display'}
+            fontSize={'48px'}
+            color={'secondary.gold.300'}
+          >
+            Inicie sua jornada agora!
+          </Text>
+          <Flex gridGap={'48px'}>
+            <Flex gridGap={'16px'}>
+              <Flex flexDir={'column'} gridGap={'12px'}>
+                <Img src={'/img/laptop-icon.svg'} />
+                <Img src={'/img/file-icon.svg'} />
+                <Img src={'/img/hourglass-icon.svg'} />
+                <Img src={'/img/box-icon.svg'} />
+              </Flex>
+              <Flex
+                gridGap={'13px'}
+                flexDir={'column'}
+                fontSize={'32px'}
+                fontFamily={'body'}
+              >
+                <Text>Acesso vitalício à plataforma</Text>
+                <Text>Exportação das tiragens em pdf</Text>
+                <Text>Acompanhamento do progresso</Text>
+                <Text>Organize suas anotações</Text>
+              </Flex>
+            </Flex>
+            <Flex
+              flexDir={'column'}
+              bgColor={'tertiary.grey'}
+              px={'72px'}
+              py={'32px'}
+              borderRadius={'5px'}
+              w={'max-content'}
+              gridGap={'32px'}
+              h={'max-content'}
+            >
+              <Text
+                fontFamily={'body'}
+                fontSize={'40px'}
+                color={'secondary.purple.500'}
+              >
+                R$ 22,90
+              </Text>
+              <Button variant={'primary'}>Assinar agora</Button>
+            </Flex>
           </Flex>
         </Flex>
       </Flex>
