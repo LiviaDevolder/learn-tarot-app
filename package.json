@@ -32,6 +32,7 @@
     "@emotion/styled": "11.1.5",
     "@fontsource/im-fell-double-pica-sc": "^4.5.8",
     "@fontsource/merriweather": "^4.5.14",
+    "chakra-react-select": "^4.4.3",
     "framer-motion": "4.1.11",
     "next": "10.0.0",
     "next-pwa": "^5.2.21",

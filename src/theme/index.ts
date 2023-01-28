@@ -11,6 +11,7 @@ import shadows from './foundations/shadows'
 
 // Component style overrides
 import Button from './components/button'
+import Input from './components/input'
 
 const customTheme = {
   styles,
@@ -19,7 +20,8 @@ const customTheme = {
   colors,
   shadows,
   components: {
-    Button
+    Button,
+    Input
   }
 }
 
