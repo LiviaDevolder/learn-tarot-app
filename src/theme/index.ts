@@ -12,6 +12,7 @@ import shadows from './foundations/shadows'
 // Component style overrides
 import Button from './components/button'
 import Input from './components/input'
+import FormLabel from './components/formLabel'
 
 const customTheme = {
   styles,
@@ -21,7 +22,8 @@ const customTheme = {
   shadows,
   components: {
     Button,
-    Input
+    Input,
+    FormLabel
   }
 }
 

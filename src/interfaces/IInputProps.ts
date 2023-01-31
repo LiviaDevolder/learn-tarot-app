@@ -4,6 +4,7 @@ import {
 } from '@chakra-ui/react'
 
 import { Props } from 'chakra-react-select'
+import { IFormControl } from './IFormControl'
 
 export interface InputProps extends InputPropsChakra {
   leftIcon?: React.ReactElement
@@ -13,3 +14,8 @@ export interface InputProps extends InputPropsChakra {
 }
 
 export type IInputProps = InputProps | NumberInputProps | Props
+
+export interface InputControlProps {
+  inputProps: InputProps
+  control: IFormControl
+}
