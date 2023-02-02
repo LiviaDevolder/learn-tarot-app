@@ -49,7 +49,13 @@ export default function RightList({ type }: IHeader) {
       >
         Entrar
       </Link>
-      <Button variant={'primary'}>Assinar</Button>
+      <Link
+        href={'/cadastrar'}
+        textDecoration={'none'}
+        _hover={{ textDecoration: 'none' }}
+      >
+        <Button variant={'primary'}>Assinar</Button>
+      </Link>
     </Flex>
   ) : (
     <Flex display={'none'}></Flex>

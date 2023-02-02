@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Box, Text, Flex, HStack, Link } from '@chakra-ui/react'
+import { Box, Flex, HStack, Link } from '@chakra-ui/react'
 import RightList from './rightList'
 import { IHeader } from 'interfaces/IHeader'
 
@@ -32,9 +32,15 @@ export default function Header({ type }: IHeader) {
       boxShadow={'dropShadow'}
     >
       <Flex justifyContent={'space-evenly'} alignItems={'center'}>
-        <Text fontSize={'36px'} fontFamily={'display'}>
+        <Link
+          textDecoration={'none'}
+          fontSize={'36px'}
+          fontFamily={'display'}
+          _hover={{ textDecoration: 'none' }}
+          href={'/'}
+        >
           Jornada
-        </Text>
+        </Link>
         <HStack as={'nav'} spacing={'32px'}>
           {Links.map((link) => (
             <NavLink key={link}>{link}</NavLink>

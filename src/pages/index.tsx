@@ -1,4 +1,4 @@
-import { Box, Flex, Img, Text } from '@chakra-ui/react'
+import { Box, Flex, Img, Link, Text } from '@chakra-ui/react'
 import Button from 'components/Button'
 import Footer from 'components/Footer'
 import Header from 'components/Header'
@@ -133,7 +133,13 @@ export default function Index() {
               >
                 R$ 22,90
               </Text>
-              <Button variant={'primary'}>Assinar agora</Button>
+              <Link
+                href={'/cadastrar'}
+                textDecoration={'none'}
+                _hover={{ textDecoration: 'none' }}
+              >
+                <Button variant={'primary'}>Assinar agora</Button>
+              </Link>
             </Flex>
           </Flex>
         </Flex>
