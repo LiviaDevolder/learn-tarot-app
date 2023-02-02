@@ -39,6 +39,7 @@ export default {
     grey: '#D9D9D9',
     black: '#000',
     white: '#FFF',
+    midgrey: 'ADADAD',
     darkgrey: '#696969'
   }
 }
