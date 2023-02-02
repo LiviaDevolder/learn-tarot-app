@@ -14,7 +14,7 @@ export default function Cadastrar() {
     >
       <Header type={Type.none}></Header>
       <Flex w={'100%'}>
-        <Img src="/img/tarot-devil.png" width={'667px'}></Img>
+        <Img src="/img/tarot-devil.png" maxW={'667px'} />
         <Flex
           gridGap={'32px'}
           flexDir={'column'}
